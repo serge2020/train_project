@@ -15,8 +15,8 @@ Clone the project locally with ```git clone ```
 
 ## Usage
 
-Project is created using Python 3.7. virtual environment and all dependencies are included within it in the *venv* folder
-Make shure you have *output* folder in the project root as all csv files produced by main.py are saved there.
+Project is created using Python 3.7. virtual environment and all dependencies are included within it in the *venv* folder. 
+**Make sure you have *output* folder** in the project root as all csv files produced by main.py are saved there.
 
 To run the scripts from command line:
 1. Get the absolute path of ./venv/Scripts folder in the project tree - Python interpreter is located there.
@@ -36,7 +36,7 @@ For example to get July 2020 train schedule data for train number 4  run the com
 Run this script only after you have executed main.py script and csv files with schedule data are present in the output folder.
 1. Source file name (arrival or departure)
 2. Station code (numeric, use data in station csv for reference)
-For example to average arrival time to Helsnki station (code = 1) from the data loaded by previous command  run:
+For example to average arrival time to Helsinki station (code = 1) from the data loaded by previous command  run:
 ```bash
-<absolute_path>/venv/Scripts/python.exe avg_arrival.py arrival_20200701-20200731.csv 1
+<absolute_path>/venv/Scripts/python.exe avg_time.py arrival_20200701-20200731.csv 1
 ```
