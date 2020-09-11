@@ -6,11 +6,11 @@ In this repo you'll find a couple of Python scripts that perform some ETL tasks 
 
 ## Data Model
 Descripttion of the data returned is available at the Finnish Transport Agency site [here](https://www.digitraffic.fi/rautatieliikenne/#junat)
-The *main.py* script performs ETL tasks for achieving 3N data normalization and loading it into the schema described in the trains_erd.jpg file. Aslo, denormalized table containing all the loaded data is generated and saved to csv file.
+The *main.py* script performs ETL tasks for achieving 3N data normalization and loading it into the schema shown in the [trains_erd.jpg](https://github.com/serge2020/train_project/blob/master/trains_erd.jpg) file. Aslo, denormalized table containing all the loaded data is generated and saved to csv file.
 
 ## Installation
 
-Clone the project locally with ```bash git clone ``` 
+Clone the project locally with ```git clone ``` 
 
 
 ## Usage
